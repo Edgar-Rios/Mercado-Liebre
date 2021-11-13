@@ -1,0 +1,15 @@
+
+:root{
+    --verde: #39B54A;
+    --light-gray:#EBEBEB;
+    --dark-gray: #666;
+    --my-blue: #03264C;
+    --light-blue: #1259C3;
+    --yellow: #EAC926;
+
+    --font-size-body: 12px;
+    --font-size-titles: 24px;
+    --font-size-price: 18px;
+    --font-size-discount: 16px;
+    --font-size-descripcion: 16px;
+}

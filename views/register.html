@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hojas de estilos-->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div class="contain-form">
+            <div class="box-input">
+                <label class="title-input" for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <span class="error-msg">dato invalido</span>
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                <span class="error-msg">dato invalido</span>
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="fechaNac">Fecha de nacimiento</label>
+                <input type="date" name="fechaNac" id="fechaNac">
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="domicilio">Domicilio</label>
+                <input type="text" name="domicilio" id="domicilio">
+                <span class="error-msg">dato invalido</span>
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="perfilUsuario">Perfil de ususario</label>
+                <label><input type="radio" name="perfilUsuario" id="perfilUsuario">comprar</label>
+                <label><input type="radio" name="perfilUsuario" id="perfilUsuario">vender</label>
+            </div>
+            <div class="box-input select">
+                <label>Categorias de interes</label>
+                <select name="categoria" id="categoria">
+                    <option value="electro">Electro</option>
+                    <option value="moda">Moda</option>
+                    <option value="hogar">Hogar</option>
+                    <option value="jugueteria">Jugueteria</option>
+                    <option value="vida sana">Vida sana</option>
+                </select>
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="fotoUsuario">Foto de usuario</label>
+                <input type="file" name="foto" id="fotoUsuario">
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="contrasenia">Contraseña</label>
+                <input type="password" name="contrasenia" id="contrasenia">
+                <span class="error-msg">dato invalido</span>
+            </div>
+            <div class="box-input">
+                <label class="title-input" for="contrasenia2">Confirma contraseña</label>
+                <input type="password" name="contrasenia2" id="contrasenia2">
+                <span class="error-msg">dato invalido</span>
+            </div>
+            <div class="content-buttons">
+                <button type="submit" class="btn-submit"> ENVIAR</button>
+                <button type="submit" class="btn-reset">BORRAR</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -14,4 +14,13 @@ app.get(`/`, (req, res) =>{
     res.sendFile(pathAbsolute("./views/home.html"))
 });
 
+app.get(`/login`, (req, res) =>{
+    res.sendFile(pathAbsolute("./views/login.html"))
+});
+
+app.get(`/register`, (req, res) =>{
+    res.sendFile(pathAbsolute("./views/register.html"))
+});
+
+
 app.listen(PORT, () => console.log(`servidor levantado: http://localhost:${PORT}`))

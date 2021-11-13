@@ -1,0 +1,29 @@
+@import url('./variables.css');
+
+.contain-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    background-color: var(--light-gray);
+    gap: 20px   ;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+} 
+
+.box-input .title-input {
+    font-weight: bold;
+}
+
+.content-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-buttons button{
+    padding: 5px;
+    background-color: mediumaquamarine;
+}
